@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LEO's Bicycle Sales </title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+  <div class="main-bg">
+    <nav class="nav">
+      <div class="logo">LEO's <span style="color:#ff7a2f;">●</span>Bicycle Sales</div>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">首頁</a>
+        <a href="#about">關於我們</a>
+        <a href="#products">商品一覽</a>
+        <a href="#Q&A">Q&A</a>
+        <a href="#contact">聯絡我們</a>
+      </div>
+      <div class="cart-icon" id="cartIcon">
+        🛒<span class="cart-count" id="cartCount">0</span>
+      </div>
+    </nav>
+
+    <div class="hero-area" id="home">
+      <div class="hero-text" data-aos="fade-right">
+        <div class="hero-title">RIDE SMART.<br>FOLD EASY.</div>
+        <button class="hero-btn">查看更多</button>
+      </div>
+      <div class="hero-carousel" data-aos="fade-left">
+        <button class="carousel-btn left" id="prevSlide">&#10094;</button>
+        <div class="carousel-track" id="carouselTrack">
+          <img class="hero-img" src="https://media.istockphoto.com/id/1402134774/zh/%E7%85%A7%E7%89%87/professional-road-cyclist-on-a-training-ride.jpg?s=2048x2048&w=is&k=20&c=n08To8oDQSuXtdUNbc2yVPeWeHL45DW5J6NgCc3uowk=" alt="Scooter 1">
+          <img class="hero-img" src="https://media.istockphoto.com/id/1406148993/zh/%E7%85%A7%E7%89%87/smiling-young-black-man-enjoying-sport-with-friends-in-nature.jpg?s=2048x2048&w=is&k=20&c=P6HoeeBJEH28XYOVob6XHSqXsgIZA2IlCdLA-j3ShYs=" alt="Scooter 2">
+          <img class="hero-img" src="https://media.istockphoto.com/id/682268436/zh/%E7%85%A7%E7%89%87/%E5%B0%8D%E7%A9%BA%E8%B7%AF%E4%B8%8A%E9%A8%8E%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%8B%E5%8B%95%E5%93%A1.jpg?s=2048x2048&w=is&k=20&c=BuwfZ1R_kjZKcqA9uu72lBJX6ZsM_lFPvG-gduf9Hos=" alt="Scooter 3">
+        </div>
+        <button class="carousel-btn right" id="nextSlide">&#10095;</button>
+      </div>
+    </div>
+    <div class="decor-circle circle1"></div>
+    <div class="decor-circle circle2"></div>
+  </div>
+
+  <section class="section" id="about" data-aos="fade-up">
+    <div class="section-img-wrap">
+      <div class="section-dot"></div>
+      <img class="section-img" src="https://www.don1don.com/wp-content/uploads/2020/02/%E5%9C%98%E9%AB%9423-1024x683.jpg" alt="Scooter">
+    </div>
+    <div class="section-content">
+      <div class="section-label">我們的故事</div>
+      <div class="section-title">LEO Bicycle Sales 成立於 2022 年，致力推動智慧城市中的綠能移動。</div>
+      <div class="section-desc">我們相信，每一步都應該既自由又永續。</div>
+      <a class="section-btn" href="#">查看更多</a>
+    </div>
+  </section>
+
+  <section class="section reverse" data-aos="fade-up">
+    <div class="section-img-wrap">
+      <div class="section-dot"></div>
+      <img class="section-img" src="https://cars-asset.tvbs.com.tw/uploads/2022/11/23164119/221123_%E6%8D%B7%E5%AE%89%E7%89%B9%E9%9B%BB%E5%8B%95%E8%87%AA%E8%A1%8C%E8%BB%8A001_%E4%BE%86%E6%BA%90giant.jpeg" alt="Scooter">
+    </div>
+    <div class="section-content">
+      <div class="section-label">我們的產品</div>
+      <div class="section-title">We Created The Most Advanced Scooter Technology.</div>
+      <div class="section-desc">採用靜音技術，TAS馬達高效驅動，讓你安靜穿梭城市。</div>
+      <ul class="section-list">
+        <li>高效能</li>
+        <li>低噪音</li>
+        <li>人體工學</li>
+        <li>安全穩定</li>
+      </ul>
+      <a class="section-btn" href="#">查看更多</a>
+    </div>
+  </section>
+
+  <section class="brand" data-aos="zoom-in">
+    <span class="brand-logo">Bicycle Sales</span>
+  </section>
+
+  <section class="section" data-aos="fade-up">
+    <div class="section-img-wrap">
+      <div class="section-dot"></div>
+      <img class="section-img" src="https://images2.giant-bicycles.com/b_white%2Cc_fill%2Ch_1000%2Cq_95%2Cw_1920/uozytpqleaqjufsjrati/PRE_rCARBON_ACTION_WEB-DESK-1920X1000.jpg" alt="Scooter">
+    </div>
+    <div class="section-content">
+      <div class="section-label">全新上市</div>
+      <div class="section-title">We Created The Most Advanced Scooter Technology.</div>
+      <div class="section-desc">兒童滑步車新選擇！輕巧設計 × 安全穩定 × 人體工學車架，陪孩子一起奔向快樂童年。</div>
+      <a class="section-btn" href="#">查看更多</a>
+    </div>
+  </section>
+
+  <section class="products" id="products" data-aos="fade-up">
+    <div class="products-title">商品一覽</div>
+    <div class="product-list">
+      <div class="product-card">
+        <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/izyeu9pslpibb5wuex4i/TCR1DUWS5_A_F.jpg" alt="TCR Advanced 1 KOM">
+        <h3 class="product-name">TCR Advanced 1 KOM</h3>
+        <p class="product-desc">輕巧、高效率</p>
+        <button class="add-to-cart">加入購物車</button>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/mpy8z1jekxrblhpicrac/MY25FASTROADEplus.jpg" alt="TCR Advanced 2">
+        <h3 class="product-name">FastRoad E+</h3>
+        <p class="product-desc">全方位智能創新功能</p>
+        <button class="add-to-cart">加入購物車</button>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/onznwuhe05wne3mcpdce/MY25EXPLOEREplus.jpg" alt="TCR Advanced 3">
+        <h3 class="product-name">Explore E+</h3>
+        <p class="product-desc">隨時可以陪伴你所有旅程冒險</p>
+        <button class="add-to-cart">加入購物車</button>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_850%2Cq_80/fe02owhlwtu5kvcg9rlt/MY24FastRoadAdvanced2_ColorAHeliosOrange.jpg" alt="TCR Advanced Pro">
+        <h3 class="product-name">FastRoad Advanced 2</h3>
+        <p class="product-desc">為您帶來更純粹的騎乘喜悅！</p>
+        <button class="add-to-cart">加入購物車</button>
+      </div>
+      <div class="product-list">
+        <div class="product-card">
+          <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_2000%2Cq_80/zav7zqqqqmb7uw4zyq2w/MY25FastRoadARAdvanced1-Asia_ColorAAsphaltGreen-Rear.jpg" alt="TCR Advanced 1 KOM">
+          <h3 class="product-name">FastRoad AR Advanced 1</h3>
+          <p class="product-desc">時尚設計，幾何車架</p>
+          <button class="add-to-cart">加入購物車</button>
+        </div>
+        <div class="product-card">
+          <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/onznwuhe05wne3mcpdce/MY25EXPLOEREplus.jpg" alt="TCR Advanced 2">
+          <h3 class="product-name">Escape Disc 2</h3>
+          <p class="product-desc">高扭力馬達，城市穿梭無礙</p>
+          <button class="add-to-cart">加入購物車</button>
+        </div>
+        <div class="product-card">
+          <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/izyeu9pslpibb5wuex4i/TCR1DUWS5_A_F.jpg" alt="TCR Advanced 3">
+          <h3 class="product-name">TCR Advanced 3</h3>
+          <p class="product-desc">全能型公路車</p>
+          <button class="add-to-cart">加入購物車</button>
+        </div>
+        <div class="product-card">
+          <img class="product-img" src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/izyeu9pslpibb5wuex4i/TCR1DUWS5_A_F.jpg" alt="TCR Advanced Pro">
+          <h3 class="product-name">TCR Advanced Pro</h3>
+          <p class="product-desc">專業競賽車款</p>
+          <button class="add-to-cart">加入購物車</button>
+        </div>
+    </div>
+    
+  </section>
+
+  <div class="review-faq-section">
+    <div class="user-reviews">
+      <div class="review-title">用戶評價</div>
+      <div class="review-container">
+        <div class="review-card">
+          「很適合上班族，折疊收納很方便，還能直接帶上捷運！」<br>
+          <span class="review-author">- 小明 / 台北市</span>
+        </div>
+        <div class="review-card">
+          「假日我都騎去河濱騎車，省電又穩，CP值超高！」<br>
+          <span class="review-author">- 小美 / 新北市</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-section" id="Q&A">
+      <div class="faq-title">常見問題</div>
+      <div class="faq-item">
+        <div class="faq-question">Q: 產品可以試騎嗎？</div>
+        <div class="faq-answer">A: 當然可以！歡迎至門市預約免費試乘體驗。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q: 有保固嗎？</div>
+        <div class="faq-answer">A: 購買後提供三年保固。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q: 充滿電可以騎多遠？</div>
+        <div class="faq-answer">A: 續航力會依每個人的使用模式、騎乘路況不同，以ECO模式騎乘，約可以騎乘100公里。</div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#" class="top-btn" title="回到頂部">↑</a>
+
+  <footer class="footer" id="contact">
+    <div class="footer-content new-footer">
+      <div class="footer-col footer-logo-col">
+        <div class="footer-logo">LEO's Bicycle Sales</div>
+      </div>
+      <div class="footer-col footer-menu">
+        <div class="footer-title">MENU</div>
+        <a href="#">首頁</a>
+        <a href="#">品牌故事</a>
+        <a href="#">商品一覽</a>
+        <a href="#">聯絡我們</a>
+      </div>
+      <div class="footer-col footer-contact">
+        <div class="footer-title">CONTACT</div>
+        <div>TEL: +886-0123456789</div>
+        <div>E-MAIL: info@modernrides.com</div>
+        <div>台南市安定區西門路十段333號</div>
+      </div>
+      <div class="footer-col footer-social">
+        <div class="footer-title">FOLLOW</div>
+        <div class="footer-social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">Copyright 2025 © LEO's Bicycle Sales</div>
+  </footer>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+  <script src="script.js" defer></script>
+</body>
+</html>
